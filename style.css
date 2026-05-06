@@ -219,13 +219,15 @@ img {
     position: absolute;
     right: 0;
     bottom: 0;
-    max-width: 320px;
+    width: 320px;
 }
 
 .home-img img {
+    display: block;
     width: 100%;
-    height: auto;   
-    border-radius: .5rem; 
+    height: auto;
+    border-radius: 1rem;
+    object-fit: contain;
 }
 
 /* BUTTON */
